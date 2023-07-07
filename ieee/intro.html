@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>books2hand (An Online Second Hand Book Store)</title>
+
+	<!--Linking fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Roboto+Slab&family=Satisfy&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		.container{
+			display: flex;
+		}
+		
+		.leftside{
+			flex: 50%;
+			float: left;
+			
+		}
+
+		.leftside img{
+			object-fit: cover;
+		}
+
+		.rightside .content h1{
+			font-family: 'Satisfy', cursive;
+			color: white;
+			font-size: 4em;
+		}
+
+		.rightside .content h2{
+			font-family: 'Cinzel', serif;
+			color: white;
+		}
+
+		.rightside .content h2 span{
+			font-family: 'Satisfy', cursive;
+		}
+
+		.rightside .content{
+			margin: 60px;
+			margin-top: 35%;
+
+			animation-name: slideInleft;
+			animation-duration:1s;
+			animation-timing-function:;
+			animation-delay:;
+			animation-iteration-count:;
+			animation-direction:;
+			animation-fill-mode:;
+
+		}
+
+		.rightside{
+			flex: 50%;
+  			float: center;
+  			background-color: #672d33;
+		}
+
+		.rightside p{
+			margin-top: 10px;
+			font-family: 'Roboto Slab', serif;
+			color: white;
+			margin-bottom: 10px;
+		}
+
+		.rightside .content a{
+			background-color: #c33f59;
+			border-radius: 20px;
+			padding: 10px;
+			font-family: 'Cinzel', serif;
+			text-decoration: none;
+			color: black;
+			font-size: 0.9em;
+			position: absolute;
+		}
+
+
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<div class="leftside">
+			<img src="book_intro.png">
+		</div>
+
+		<div class="rightside">
+			<div class="content">
+				<h1>books2hand &hearts;</h1>
+				<h2>Hey, book worms! Welcome to <span>books2hand</span>!</h1>
+				<p>A place where book worms come together to share your love for books! Sell your books and buy your books in one site! An amazing website to find your book-mate</p>
+				<a href="home.html">Let's Read!</a>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
